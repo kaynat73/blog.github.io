@@ -1,0 +1,46 @@
+.post-img{
+height: 250px;
+overflow: hidden;
+
+}
+.post-img img{
+    width: 100%;
+   
+}
+.blog-post-content{
+    
+
+    /*background-color: rgb(154, 224, 201);*/
+    
+}
+.blog-post-content h1{
+    
+    text-align: center;
+}
+.blog-post-content p{
+    font-size: 18px;
+}
+.row{
+    display: flex;
+}
+.more{
+    flex-direction: column;
+    align-items: center;
+    
+}
+.blogpost-meta{
+    background-color: rgb(250 228 231);
+    justify-content: space-between;
+    display: flex;
+}
+.auther-info{
+    margin: 12px 0;
+}
+.auther-info div{
+    padding:  4px 0;
+    font-family: var(--font1);
+}
+.social{
+    align-self: center;
+    cursor: pointer;
+}

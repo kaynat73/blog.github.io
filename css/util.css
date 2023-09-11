@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Ubuntu&family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Ubuntu&family=Varela&display=swap');
+
+:root {
+    --main-bg-color: rgb(71, 17, 17);
+    --font1: 'IBM Plex Sans', sans-serif;
+    --font2: 'IBM Plex Sans', sans-serif;
+
+
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin:  auto;
+}
+.mx-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.my-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 3px 9px;
+    border: 1.3px solid black;
+    font-size: 15px;
+    font-family: var(--font1);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    color: white;
+    background-color: var(--main-bg-color);
+
+}
+
+.form-input {
+    padding: 5px 10px;
+    font-size: 17px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin: 13px 13px;
+    font-family: var(--font1);
+
+
+}
+.form-box input,textarea{
+    width: 50vw;
+    padding: 10px 6px;
+    margin: 7px 0;
+    font-size: 16px;
+    font-family: var(--font1);
+    border: 2px solid rgb(126, 153, 193);
+    border-radius: 9px;
+    font-size: 12px;
+    font-family: var(--font1);
+
+
+}
+.nav-left img{
+    width: 40px;
+    height:40px;
+    border:2px solid black;
+    border-radius:300px
+}

@@ -1,0 +1,31 @@
+.contact-content{
+
+
+    height: 300px;
+    height: 80vw;
+    margin-top: 30px;
+    padding: 8px;
+    position: relative;
+    overflow: hidden;
+
+
+}
+.contact-content::after {
+    content: "";
+    background-image: url('../img/back.jpg');
+    opacity: 0.23;
+    color: black;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    border-radius: 12px;
+    z-index: -1;
+}
+.nav-left img{
+    width: 40px;
+    height:40px;
+    border:2px solid black;
+    border-radius:300px
+
+}
